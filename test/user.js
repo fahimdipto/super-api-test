@@ -9,7 +9,8 @@ describe ('Users',()=>{
            return request
             .get(`users?access-token=${TOKEN}`).then((res)=>{
                 expect(200)
-                expect(res.body.data).to.not.be.empty;   
+                expect(res.body.data).to.not.be.empty; 
+                 
             });
     });
     it ('GET / Specific users ', ()=>{

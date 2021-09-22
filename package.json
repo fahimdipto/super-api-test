@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout 5000",
-    "test-html": "mocha --timeout 5000 -- --reporter mochawesome",
-    "test-junit": "mocha --timeout 5000 --reporter mocha-junit-reporter"
+    "test": "mocha --timeout 50000",
+    "test-html": "mocha --timeout 50000 -- --reporter mochawesome",
+    "test-junit": "mocha --timeout 50000 --reporter mocha-junit-reporter"
   },
   "keywords": [],
   "author": "",
